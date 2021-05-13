@@ -5,6 +5,7 @@ channels:
 dependencies:
   - xxhash
   - xrootd
+  - python=3.7.10=hdb3f193_0
   - matplotlib>=3
   - numba>=0.50
   - numpy>=1.16
