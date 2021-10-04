@@ -57,7 +57,7 @@ def get_description():
 
 INSTALL_REQUIRES = [
     "awkward>=1.3.0",
-    "uproot>=4.0.6",
+    "uproot>=4.1.3",
     "uproot3-methods>=0.10.0",
     "uproot3>=3.14.1",
     "pyarrow>=1.0.0",
@@ -75,6 +75,7 @@ INSTALL_REQUIRES = [
     "hist>=2",
     'typing-extensions;python_version<"3.8"',
     "cachetools",
+    'dataclasses;python_version<"3.7"',
 ]
 EXTRAS_REQUIRE = {}
 EXTRAS_REQUIRE["spark"] = ["ipywidgets", "pyspark>=2.4.1,<3.0.0", "jinja2"]
